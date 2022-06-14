@@ -1,0 +1,100 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+header{
+	display:flex;
+	margin:30px;
+	padding:10px;
+	
+}
+nav{
+	margin-left:10%;
+	margin-right:10%;
+	/*display:flex;
+	gap:5em;
+	text-decoration:none;
+*/
+}
+a{
+	text-decoration:none;
+	gap:5em;
+}
+div{
+	margin-left:10%;
+}
+.coverpage{
+	background-image:url(miskay.jpg);
+	border:0;
+	margin:0;
+	height:70vh;
+	width:100% auto;
+
+}
+article {
+	text-align:center;
+}
+article h2{
+	font-size:70px;
+	color:yellow;
+	/*border:100px;
+	margin:50px;
+*/
+
+}
+article p{
+	color:white;
+}
+button{
+	margin:50px;
+	width:200px;
+	height:70px;
+	font-size:20px;
+	background-color:black;
+	color:white;
+	font-weight:bolder;
+}
+button:hover{
+	background-color:yellow;
+	color:black;
+	font-weight:bolder;
+	transition:  all 1s;
+}
+.secondcover{
+	text-align:center;
+	font-weight:bolder;
+	margin:30px;
+
+}
+
+.secondcover h3{
+	color:black;
+	font-size:30px;
+}
+.secondcover p{
+	color:yellow;
+	margin:20px;
+}
+figure{
+	background-color:yellow;
+	margin:20px;
+	border:10px;
+}
+
+img{
+	margin:30px;
+	width:300px;
+	height:300px;
+	margin-left:20%;
+	/*display:flex;*/
+	/*justify-content:space-evenly;*/
+
+}
+img+img{
+	margin-right:0px;
+	justify-content:space-evenly;
+}
+img:hover{
+	filter:blur(2px);
+}
